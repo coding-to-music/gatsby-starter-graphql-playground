@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "graphql-playground",
+  "name": "gatsby-starter-graphql-playground",
   "description": "Stub description for graphql-playground",
   "version": "0.2.11",
   "author": "LekoArts <hello@lekoarts.de>",
@@ -9,6 +9,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "deploy": "git add . && git commit -m Build && git push",
     "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
     "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
     "start": "gatsby develop",
